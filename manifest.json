@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "Responsive Viewer",
+    "version": "1.0",
+    "description": "Open the current webpage in a new window sized to a selected device.",
+    "permissions": ["activeTab", "tabs"],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "48": "icons/icon48.png",
+            "128": "icons/icon128.png"
+        }
+    },
+    "icons": {
+        "48": "icons/icon48.png",
+        "128": "icons/icon128.png"
+    }
+}
